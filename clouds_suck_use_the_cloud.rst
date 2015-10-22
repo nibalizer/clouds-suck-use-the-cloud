@@ -38,10 +38,17 @@ Amazon problems
   * Instance Failure
     * "Your instance will reboot at ..."
     * "Your instance is scheduled for retirement..."
+    * Instance status is impaired
+    * Instance system_status is impaired
     * Instance fails to terminate
   * Rack Failure
   * AZ Failure
   * Region Failure
+
+Network Failures
+  * A small number of machines missing checks
+  * AZ1 can't talk to AZ2
+  * Everyone on Verizon can't reach the cloud
 
 * EIP
   * Hot Potato
