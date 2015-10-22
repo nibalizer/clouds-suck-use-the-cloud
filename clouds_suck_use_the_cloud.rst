@@ -33,26 +33,33 @@ Brief Overview
 Amazon problems
 ===============
 
+
+* EC2
+  * Instance Failure
+    * "Your instance will reboot at ..."
+    * "Your instance is scheduled for retirement..."
+    * Instance fails to terminate
+  * Rack Failure
+  * AZ Failure
+  * Region Failure
+
 * EIP
   * Hot Potato
   * New EIP could have DNS pointed to it
 
 * EBS
   * Amazon grip of death
+  * Volumes not attaching/detaching
   * Volume Pre-Warming
+     - http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-prewarm.html
+  * Performance
+     - http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSPerformance.html
 
 * ELB
   * Pre-Warming ELB
+     - http://aws.amazon.com/articles/1636185810492479#pre-warming
   * Autoscaling - ip changes (syslog-ng)
   * bare domains
-
-* Outages
-  * Instance Failure
-    * "Your instance will reboot at ..."
-    * "Your instance is scheduled for retirement..."
-  * Rack Failure
-  * AZ Failure
-  * Region Failure
 
 * Human error
   * One command to bring down your stack
@@ -64,6 +71,7 @@ Amazon problems
     * API failure
     * DNS failures
     * system tests
+      - cleanup is hard
 
 
 OpenStack Problems
