@@ -33,21 +33,37 @@ Brief Overview
 Amazon problems
 ===============
 
-* Dealing with scale
-* EIP Hot Potato
-* LoLmazon
-** Instance Failure
-** Rack Failure
-** AZ Failure
-** Region Failure
-* Amazon grip of death
-* API Failure
-* Noisy Neighbors
-* "Your instance will reboot at ..."
-* "Your instance is scheduled for retirement..."
-* Pre-Warming ELB
-* Volume Pre-Warming
+* EIP
+  * Hot Potato
+  * New EIP could have DNS pointed to it
+
+* EBS
+  * Amazon grip of death
+  * Volume Pre-Warming
+
+* ELB
+  * Pre-Warming ELB
+  * Autoscaling - ip changes (syslog-ng)
+  * bare domains
+
+* Outages
+  * Instance Failure
+    * "Your instance will reboot at ..."
+    * "Your instance is scheduled for retirement..."
+  * Rack Failure
+  * AZ Failure
+  * Region Failure
+
 * Human error
+  * One command to bring down your stack
+  * Commiting creds to github, etc
+
+* Dealing with scale
+  * Noisy Neighbors
+  * Launch failures
+    * API failure
+    * DNS failures
+    * system tests
 
 
 OpenStack Problems
