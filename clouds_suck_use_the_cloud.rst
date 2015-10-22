@@ -80,6 +80,8 @@ Network Failures
     * system tests
       - cleanup is hard
 
+* Pay for the whole hour
+
 
 OpenStack Problems
 ==================
@@ -111,6 +113,7 @@ Why you should use a cloud
 
 * On Demand Resources
 * Autoscaling
+* File/git driven infrastructure
 * Decentralized Team
 * Not having to deal with hardware
 * Hardware refreshed by Provider
