@@ -45,6 +45,9 @@ Amazon problems
 * Noisy Neighbors
 * "Your instance will reboot at ..."
 * "Your instance is scheduled for retirement..."
+* Pre-Warming ELB
+* Volume Pre-Warming
+* Human error
 
 
 OpenStack Problems
@@ -65,6 +68,10 @@ OpenStack Problems
 * API Calls get slower as time goes on
   * Whyyyyy
 * "Your instance will reboot at ..."
+* Annoying Rackspace issue system
+* Image uploads
+* Floating Ips, or Not
+* Manual Network Creation
 
 
 Why you should use a cloud
