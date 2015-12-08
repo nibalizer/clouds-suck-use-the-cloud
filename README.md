@@ -7,4 +7,4 @@ https://pypi.python.org/pypi/presentty/0.2.0
 You currently must pin Pillow  <3.0.0 to pip install.
 
 
-Given at FOSSETCON
+Given at SeaGL 2015
